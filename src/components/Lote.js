@@ -16,13 +16,16 @@ const Lote = (props) => {
 
         <Form>
           <div className="form-group">
-            <label htmlFor="precio">Precio</label>
+            <label htmlFor="precio">Toros</label>
+            <label htmlFor="precio">Ubicación: Montevideo</label>
+            <label htmlFor="precio">OFERTAS EN U$S</label>
+            <label htmlFor="precio">Su oferta: (12 cuotas)</label>
             <Input type="number" className="form-control" name="precio" />
           </div>
 
           <div className="form-group">
             <button className="btn btn-primary btn-block">
-              <span>Lote</span>
+              <span>Iniciar sesión para ofertar</span>
             </button>
           </div>
 
